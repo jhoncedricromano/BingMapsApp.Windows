@@ -1,0 +1,13 @@
+﻿<Window x:Class="RomanoJhonCedric.weatherpanel2.windows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RomanoJhonCedric.weatherpanel2.windows"
+        xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <m:Map x:Name="myMap" CredentialsProvider="INSERT_YOUR_BING_MAPS_KEY" Mode="AerialWithLabels" Center="37.806029,-122.407007" ZoomLevel="16"/>
+    </Grid>
+</Window>
